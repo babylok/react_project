@@ -50,11 +50,10 @@ fortress_client/
     ├── main.js
     ├── NavigationBars.js
     ├── index.js
-    ├── index.css
-    └── ...
+    └── index.css
+```
 
-
-## Back-end Structure
+## back-end Structure
 
 The back-end is built using Express.js and provides a RESTful API for data management. The MongoDB connection and data handling logic are located in `fetch_fortressData.js`. Below is an overview of the key components and their functionalities:
 
@@ -73,6 +72,7 @@ fortress_server/
 ├── fetch_fortressData.js  # Contains MongoDB connection and data handling logic
 ├── main.js                 # Main server file for Express.js
 └── node_modules/
+```
 
 ### MongoDB Connection and Data Handling
 - The MongoDB connection and the schema definitions are handled in `fetch_fortressData.js`. 
@@ -111,7 +111,7 @@ This project uses a local MongoDB database to store and manage data. Follow the 
 - Ensure you have [MongoDB](https://www.mongodb.com/try/download/community) installed on your machine.
 - Make sure MongoDB is running. You can start it using the following command:
   ```bash
-  mongod
+  systemctl start mongod
 
 
 ## Introduction
