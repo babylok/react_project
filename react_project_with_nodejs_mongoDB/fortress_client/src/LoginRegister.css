@@ -1,0 +1,44 @@
+.auth-container {
+    max-width: 400px;
+    margin: 50px auto; /* 調整這裡的數值以改變整個容器的垂直位置 */
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    height: auto; /* 調整高度以適應內容 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* 將內容置頂 */
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-section {
+    margin-top: 20px; /* 調整此值以增加上邊距 */
+  }
+  
+  .btn-login, .btn-signup {
+    width: 100%;
+  }
+  
+  .social-login {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .social-button {
+    margin: 0 0.5rem;
+  }
+  
+  .nav-link {
+    text-align: center;
+  }
+
+ .closeButton {
+    background: 'none';
+    border: 'none';
+    cursor: 'pointer';
+}

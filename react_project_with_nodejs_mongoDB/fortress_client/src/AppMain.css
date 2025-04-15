@@ -1,0 +1,8 @@
+.product_search{
+    display: inline-block;
+}
+
+.active-item {
+    background-color: green !important; 
+    color: white !important; 
+}
