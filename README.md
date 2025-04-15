@@ -9,7 +9,6 @@ This is a full-stack application developed using React, Node.js,RESTful API and 
 - **Back-end**: Node.js,RESTful API, MongoDB
 
 ## Features
-- 
 - User registration and login
 - Data display and management using CRUD (Create, Read, Update, Delete) operations
 - Responsive design
